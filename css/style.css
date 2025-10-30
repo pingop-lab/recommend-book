@@ -1,0 +1,43 @@
+ 
+        .bold-text {
+  font-weight: bold;
+}
+
+.bg-pic{
+  background-color: #abc4ff(122, 125, 128);
+
+}
+
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* ทำให้ภาพอยู่ในขอบเขตของกรอบโดยไม่ตัดส่วนใด */
+}
+.paprika-text {
+  font-family: 'Paprika', sans-serif;
+}
+
+
+
+ 
+
+
+ .small-img {
+    width: 50px;   /* กำหนดความกว้างใหม่ */
+    height: auto;   /* รักษาสัดส่วนภาพอัตโนมัติ */
+    display: block;
+    margin: 0 auto; /* จัดกึ่งกลางภาพใน card */
+}
+
+
+@font-face {
+  font-family: pizza;
+  src: url(PizzaDemo.ttf);
+}
+
+h2,p,section {
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
